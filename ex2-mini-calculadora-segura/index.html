@@ -1,36 +1,36 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Calculadora Segura</title>
-    <link rel="stylesheet" href="styles.css">    
+    <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
- 
-  <h1>Mini Calculadora Segura</h1>
- 
-<form id="form-calculadora">
-<input type="number" id="numero1" placeholder="Primer número" step="any">
-<select id="operacion">
-<option value="suma">+</option>
-<option value="resta">−</option>
-<option value="multiplicacion">×</option>
-<option value="division">÷</option>
-</select>
-<input type="number" id="numero2" placeholder="Segundo número" step="any">
- 
-    <button type="submit">Calcular</button>
-</form>
- 
-<div id="resultado"></div>
+    <h1>Mini Calculadora Segura</h1>
+    <form id="form-calculadora">
+        <input type="number" id="numero1" placeholder="Primer número" step="any">
+        <select id="operacion">
+            <option value="suma">+</option>
+            <option value="resta">−</option>
+            <option value="multiplicacion">×</option>
+            <option value="division">÷</option>
+        </select>
+        <input type="number" id="numero2" placeholder="Segundo número" step="any">
 
-<h2>Historial</h2>
-<ul id="historial"></ul>
- 
+        <button type="submit">Calcular</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <h2>Historial</h2>
+    <ul id="historial"></ul>
+
 
 </body>
+
 </html>
